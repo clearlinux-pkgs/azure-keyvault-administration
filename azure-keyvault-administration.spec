@@ -4,7 +4,7 @@
 #
 Name     : azure-keyvault-administration
 Version  : 4.0.0b2
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/93/14/ee5ec47f59d8a2764f5f3d5e0065b5fcb82ec203e97f0ebae79c67ebf483/azure-keyvault-administration-4.0.0b2.zip
 Source0  : https://files.pythonhosted.org/packages/93/14/ee5ec47f59d8a2764f5f3d5e0065b5fcb82ec203e97f0ebae79c67ebf483/azure-keyvault-administration-4.0.0b2.zip
 Summary  : Microsoft Azure Key Vault Administration Client Library for Python
@@ -12,10 +12,10 @@ Group    : Development/Tools
 License  : MIT
 Requires: azure-keyvault-administration-python = %{version}-%{release}
 Requires: azure-keyvault-administration-python3 = %{version}-%{release}
-Requires: azure-common~
+Requires: azure-common
 Requires: azure-core
 Requires: msrest
-BuildRequires : azure-common~
+BuildRequires : azure-common
 BuildRequires : azure-core
 BuildRequires : buildreq-distutils3
 BuildRequires : msrest
@@ -65,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1607992252
+export SOURCE_DATE_EPOCH=1608002367
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
